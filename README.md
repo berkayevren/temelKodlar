@@ -1,8 +1,8 @@
 # javascript
 
-box-sizing: border-box;
 
-//padding + border boyuta dahil
+<div style="font-size: 25px;">box-sizing: border-box;</div>
+
 ------------
 
 html {
