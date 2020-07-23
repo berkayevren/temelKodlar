@@ -37,9 +37,9 @@ background-position: center;
 ```javascript
 val = x.toFixed(4)
 ```
-> 10._0000_
+> 10.**0000**
 ---
 ```javascript
 val = x.toPrecision(4)
 ```
-> _10.00_
+> **10.00**
