@@ -106,3 +106,36 @@ function compare(a,b) {
 arr.sort(compare);            // Sayısal olarak sıralar
 ```
 > Temel array fonksiyonları
+---
+```javascript
+let data = [
+  {firstName:'Berkay', age:23}
+  {firstName:'Ali', age:15}
+];
+console.log(data[0].firstName);
+```
+> Obje kullanımı
+---
+```javascript
+for(var i = 0; i < 10; i++) {
+  if(i == 3) {
+    console.log('Harika' + i);
+    continue;
+  }
+  console.log(i);
+}
+```
+> Continue sonrası yapılmaz sonraki döngüden devam eder.
+---
+```javascript
+let cars = ['BMW','Audi','Mitsubishi'];
+
+for(let i in cars) {
+  console.log(`index: ${i} value: ${cars[i]}`); // Ters tırnak ${değişken} kullanımı
+}
+
+forEach(function(item){
+    console.log(item)
+ });
+```
+> for-in ve forEach kullanımı
