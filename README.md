@@ -26,6 +26,7 @@ background-position: center;
 .div1 {
   float: left;
 }
+
 .div2.clearfix::after {
   content: "";
   display: block;
@@ -112,6 +113,7 @@ let data = [
   {firstName:'Berkay', age:23}
   {firstName:'Ali', age:15}
 ];
+
 console.log(data[0].firstName);
 ```
 > Obje kullanımı
