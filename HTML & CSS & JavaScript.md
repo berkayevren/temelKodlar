@@ -191,14 +191,12 @@ function(){
   var age = 30;
   console.log(age);   // age = 30
 }
-
 console.log(age);     // age = 20;
 
 if(true){             
   var age = 40;       // Block scope oluşturmaz
   console.log(age);   // age = 40
 }
-
 console.log(age);     // age = 40
 
 // ES6 ile gelen let ve const tipleri block scope oluşturur
@@ -209,7 +207,6 @@ if(true){
   const color = 'white';
   console.log(model, year, color);  // Aynen yazar
 }
-
 console.log(model); // var tanımı if içerisinde de global scope oluşturur. Yani dışarıda da geçerlidir. Aynen yazar.
 console.log(year);  // let tanımı block scope oluşturur. Yani dışarıda geçerli değildir.
 console.log(color); // const tanımı block scope oluşturur. Yani dışarıda geçerli değildir.
