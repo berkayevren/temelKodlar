@@ -16,7 +16,7 @@ div {
 > height = 45*10 = 450px 
 ---
 ```css
-background-image: xyz.png
+background-image: xyz.png;
 background-size: cover;
 background-position: center;
 ```
@@ -33,3 +33,8 @@ background-position: center;
 }
 ```
 > ```float: left``` den sonra oluşan kaymaları düzelten clearfix kullanımı.
+---
+```css
+val = x.toFixed(4)
+```
+> 10.**0000**
