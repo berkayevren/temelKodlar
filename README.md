@@ -1,7 +1,7 @@
 # javascript
 
 
-<div style="font-size: 25px;">box-sizing: border-box;</div>
+<div style="font-size: 45px;">box-sizing: border-box;</div>
 
 ------------
 
