@@ -43,3 +43,8 @@ var val = x.toFixed(4)
 let val = x.toPrecision(4)
 ```
 > **10.00**
+---
+```javascript
+x === y
+```
+> Hem değer hem tip kontrolü
