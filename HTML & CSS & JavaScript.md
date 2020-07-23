@@ -200,7 +200,6 @@ if(true){
 console.log(age);     // age = 40
 
 // ES6 ile gelen let ve const tipleri block scope oluşturur
-
 if(true){
   var model   = 'Mercedes';
   let year    = 2016;
