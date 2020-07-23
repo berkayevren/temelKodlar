@@ -158,6 +158,8 @@ console.log(val);   // val: string elemanları olan bir dizi olarak döner
 > map() fonksiyonu kullanımı
 ---
 ```javascript
+function sum(a=0,b=0){ ... } yerine Function Expressions:
+
 var sum = function(a=0,b=0){    // Default 0 değerleri ES6 ile gelen bir özellik
   var c = a + b;
   return c;
@@ -166,3 +168,18 @@ var sum = function(a=0,b=0){    // Default 0 değerleri ES6 ile gelen bir özell
 console.log(sum(10,20));
 ```
 > Function Expressions
+---
+```javascript
+function sumAll(){
+  var total = 0;
+  
+  for(let i = 0; i < arguments.length; i++){
+    total += arguments[i];
+  }
+  
+  return total;
+}
+
+console.log(sumAll(10,20,30,40,50));
+```
+> arguments özelliği
