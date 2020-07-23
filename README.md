@@ -1,4 +1,4 @@
-# javascript
+# JavaScript
 
 
 box-sizing: border-box;
@@ -8,10 +8,14 @@ box-sizing: border-box;
 ---
 
 html {
+
   font-size: 10px;
+  
 }
 div {
+
   height: 45rem;
+  
 }
 
 > height = 45*10 = 450px 
