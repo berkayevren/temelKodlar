@@ -156,3 +156,13 @@ let val = people.map(function(item){
 console.log(val);   // val: string elemanları olan bir dizi olarak döner
 ```
 > map() fonksiyonu kullanımı
+---
+```javascript
+var sum = function(a,b){
+  var c = a + b;
+  return c;
+}
+
+console.log(sum(10,20));
+```
+> Function Expressions
