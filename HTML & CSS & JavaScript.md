@@ -1,7 +1,7 @@
 # HTML & CSS & JavaScript
----
+
 ## 22.07.2020
----  
+
 ```css
 box-sizing: border-box;
 ```
@@ -111,7 +111,7 @@ arr.sort(compare);            // Sayısal olarak sıralar
 > Temel array fonksiyonları
 ---
 ## 23.07.2020
----
+
 ```javascript
 let data = [
   {firstName:'Berkay', age:23},
