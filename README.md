@@ -134,7 +134,7 @@ for(let i in cars) {
   console.log(`index: ${i} value: ${cars[i]}`); // Ters tırnak ${değişken} kullanımı
 }
 
-forEach(function(item){
+cars.forEach(function(item){
     console.log(item)
  });
 ```
