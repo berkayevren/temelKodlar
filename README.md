@@ -34,7 +34,12 @@ background-position: center;
 ```
 > ```float: left``` den sonra oluşan kaymaları düzelten clearfix kullanımı.
 ---
-```css
+```javascript
 val = x.toFixed(4)
 ```
-> 10.**0000**
+> 10._0000_
+---
+```javascript
+val = x.toPrecision(4)
+```
+> _10.00_
