@@ -1,9 +1,10 @@
 # javascript
 
 
-<div style="font-size: 45px;">box-sizing: border-box;</div>
+box-sizing: border-box;
+//padding + border boyuta dahil
 
-------------
+-
 
 html {
   font-size: 10px;
