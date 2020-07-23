@@ -158,7 +158,7 @@ console.log(val);   // val: string elemanları olan bir dizi olarak döner
 > map() fonksiyonu kullanımı
 ---
 ```javascript
-var sum = function(a,b){
+var sum = function(a=0,b=0){    // Default 0 değerleri ES6 ile gelen bir özellik
   var c = a + b;
   return c;
 }
