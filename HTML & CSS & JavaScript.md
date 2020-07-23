@@ -211,3 +211,39 @@ console.log(year);  // let tanımı block scope oluşturur. Yani dışarıda ge�
 console.log(color); // const tanımı block scope oluşturur. Yani dışarıda geçerli değildir.
 ```
 > Scops
+---
+```javascript
+document.querySelector('#ornek');
+document.getElementById('ornek');   // querySelector ile aynı seçimi yapar
+
+let val = document.querySelector('#ornek');   // val yazılan yere bu ifade yazılmış olur
+
+document.querySelector('li');                                               // İlk bulduğu li elemanını seçer
+val = document.querySelectorAll('li');                                      // Bütün li elemanlarını seçer. NodeList döndürür.
+val.forEach(function(item,index){item.textContent = `${index} - merhaba`}); // NodeList, forEach yapısına sahip olduğu için kullanabiliriz
+
+val = document.querySelectorAll('li:nth-child(even)');            // Çift elemanlar seçildi
+val.forEach(function(item){item.style.background = 'grey';});     // Bu şekilde renkli bir liste oluşturulabilir
+
+document.querySelector('li:nth-child(3)');                        // CSS selector yapısı aynen kullanılabilir
+document.querySelector('li:nth-child(3)').style.color = 'red';
+document.querySelector('li:nth-child(3)').textContent = 'deneme'; // textContent = innerText
+
+document.querySelector('#ornek').innerHtml = '<b>deneme</b>';
+document.querySelector('#ornek').innerText = 'deneme';
+
+document.querySelector('#ornek').className = 'ornekClass';    // Tüm class ları siler ve ornekClass ı yükler
+document.querySelector('#ornek').classList.add('ornekClass'); // Var olan class ların sonuna ornekClass ı ekler
+
+val = document.getElementsByClassName('ornekClass');          // Kaç adet ornekClass varsa o büyüklükte bir Collection döndürür.
+val[2].style.fontSize = '25px';
+
+/* getElement yapıları Collection döndürür. querySelector yapıları NodeList döndürür. */
+
+for(let i = 0; i < val.length; i++){                          // Collection, forEach metodunu içermediği ve for metodu içerdiği için for kullandık
+  val[i].style.color = 'red';
+}
+
+val = val[0].getElementsByTagName('div');   // ilk ornekClass sınıfının altındaki div elementlerini seçer 
+```
+> querySelector ve alternatifleri
