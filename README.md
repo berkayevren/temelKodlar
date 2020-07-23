@@ -3,7 +3,7 @@
 
 box-sizing: border-box;
 
-//padding + border boyuta dahil
+> padding + border boyuta dahil
 
 ---
 
@@ -14,4 +14,4 @@ div {
   height: 45rem;
 }
 
-//height = 45*10 = 450px 
+> height = 45*10 = 450px 
