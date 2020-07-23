@@ -65,3 +65,44 @@ let val, minX, maxX;
 val = minX + Math.random() * (maxX - minX);
 ```
 > minX ve maxX aralığında rastgele sayı üretme
+---
+```javascript
+let val;
+
+val = str.replace('str1','str2');   // str içerisinde ilk bulduğu str1 yerine str2'yi yazar
+val = str.replace(/str1/g,'str2');  // str içerisinde bulduğu tüm str1 ler yerine str2'yi yazar
+val = str.split(',');               // Array çıktısı verir
+val = str.concat(' ',str1);         // str + ' ' + str1
+val = str.toLowerCase();
+val = str.toUpperCase();
+val = str.includes('str1');         // true / false
+val = str.indexOf('str1');
+val = str.substring(3,5);           // 3 ve 4 karakterleri
+val = str.trim();                   // Baştaki ve sondaki boşlukları siler
+val = str.startWith('str1');        // str1 ile başlıyor mu? (true / false)
+```
+> Temel string fonksiyonları
+---
+```javascript
+let val;
+
+val = arr.push(itm);          // Sona ekler
+val = arr.unshift(itm);       // Başa ekler
+val = arr.pop();              // Sondakini siler
+val = arr.shift();            // Baştakini siler
+val = arr.indexOf('str');     // str itemi kaçıncı eleman
+val = arr.reverse();    
+val = arr.sort();             // alfabetik sıralar (Sayısal sıralama aşağıda)
+val = arr.concat(arr2);       // arr sonuna arr2 ekler
+val = arr.splice(2,1);        // 2.itemden itibaren 1 item siler (2.yi siler)
+val = arr.splice(2,0,'str');  // 2.itemin olduğu yere araya str yi ekler
+val = arr.splice(2,1,'str');  // 2.itemi silerek 2.iteme str yi ekler
+
+function compare(a,b) {
+  if(a>b) return 1;
+  if(a==b) return 0;
+  if(a<b) return -1;
+}
+arr.sort(compare);            // Sayısal olarak sıralar
+```
+> Temel array fonksiyonları
