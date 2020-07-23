@@ -1,7 +1,7 @@
 # HTML & CSS & JavaScript
-<p align="center">
-  23.07.2020
-</p>
+
+## 23.07.2020
+  
 ```css
 box-sizing: border-box;
 ```
