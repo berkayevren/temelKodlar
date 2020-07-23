@@ -110,7 +110,7 @@ arr.sort(compare);            // Sayısal olarak sıralar
 ---
 ```javascript
 let data = [
-  {firstName:'Berkay', age:23}
+  {firstName:'Berkay', age:23},
   {firstName:'Ali', age:15}
 ];
 
@@ -141,3 +141,18 @@ cars.forEach(function(item){
  });
 ```
 > for-in ve forEach kullanımı
+---
+```javascript
+let people = [
+  {firstName:'Berkay', lastName:'EVREN'},
+  {firstName:'Ali', lastName:'ÖZDEMİR'},
+  {firstName:'Ahmet', lastName:'TURGUT'}
+];
+
+let val = people.map(function(item){
+  return item.firstName + ' ' + item.lastName;
+});
+
+console.log(val);   // val: string elemanları olan bir dizi olarak döner
+```
+> map() fonksiyonu kullanımı
