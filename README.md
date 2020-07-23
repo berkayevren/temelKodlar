@@ -48,3 +48,20 @@ let val = x.toPrecision(4)
 x === y
 ```
 > Hem değer hem tip kontrolü
+---
+```javascript
+let val;
+
+val = Math.round(x);    // Yuvarla -> En yakına
+val = Math.ceil(x);     // Yuvarla -> Yukarıya
+val = Math.floor(x);    // Yuvarla -> Aşağıya
+val = Math.min(array);  // Array'in en küçük değeri
+```
+> Temel math fonksiyonları
+---
+```javascript
+let val, minX, maxX;
+
+val = minX + Math.random() * (maxX - minX);
+```
+> minX ve maxX aralığında rastgele sayı üretme
