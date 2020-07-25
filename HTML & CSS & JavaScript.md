@@ -269,6 +269,7 @@ val = list.children[0].children;
 
 val = list.firstChild;        // Node döndürür
 val = list.firstElementChild; // HTML tag döndürür
+val = list.children[0];       // Üstteki ile aynı
 
 val = list.childElementCount;
 val = list.parentElement.parentElement; // Üst elementin üst elementini döndürür.
@@ -288,3 +289,31 @@ for(let i = 0; i < list.childNodes.length; i++){  // Bir önceki for döngüsü 
 }
 ```
 > DOM elementlerini seçme
+---
+```javascript
+const list = document.querySelector('.ornekClass');
+
+list.remove();                              // ornekClass sınıfındaki tag ın altındaki elemanları siler
+list.children[0].remove();                  // ornekClass sınıfındaki tag ın altındaki ilk elemanı siler
+list.removeChild(list.children[0]);         // Aynı işlemi yapar
+list.children[0].removeAttribute('class');  // class Attribute unu siler
+
+
+const h2 = document.creatElement('h2');
+h2.setAttribute('class', 'ornekClass');
+h2.appendChild(document.creatTextNode('deneme')); // İçerisinde deneme yazan h2 taglı bir element oluşturuldu
+
+const parent = document.querySelector('.ornekClassParent');  // ornekClass sınıfının üstündeki ornekClassParent sınıfı
+parent.replaceChild(h2, list);  // oluşturulan yeni element, eski ornekClass sınıflı element yerine yazıldı
+
+
+val = list.className;                 // classları string olarak verir
+val = list.classList;                 // classları liste olarak verir
+val = list.classList[0];              // classlarından ilkini seçer
+val = list.classList.add('new');      // new class ını ekler
+val = list.classList.remove('new');   // new class ını siler
+val = list.getAttribute('href');      // href Attribute unun içini string olarak döndürür
+val = list.setAttribute('href', 'http://google.com/');
+val = list.hasAttribute('data-val');  // true / false
+```
+> DOM elementleri silme ve düzenleme
