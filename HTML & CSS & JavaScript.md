@@ -251,3 +251,40 @@ for(let i = 0; i < val.length; i++){                          // Collection, for
 val = val[0].getElementsByTagName('div');   // ilk ornekClass sınıfının altındaki div elementlerini seçer 
 ```
 > querySelector ve alternatifleri
+---
+## 25.07.2020
+
+```javascript
+let val;
+
+let list = document.querySelector('.ornekClass');
+
+val = list.childNodes;              // Bütün child Node ları alır
+val = list.childNodes[0].nodeType;  // Node türünü döndürür
+// element: return 1, attribute: return2, text: return 3, comment: retrun 4
+
+val = list.children;  // HTMLCollection döndürür. Sadece html ifadeleri
+val = list.children[0].textContent = 'deneme';
+val = list.children[0].children;
+
+val = list.firstChild;        // Node döndürür
+val = list.firstElementChild; // HTML tag döndürür
+
+val = list.childElementCount;
+val = list.parentElement.parentElement; // Üst elementin üst elementini döndürür.
+
+val = list.children[0].nextSibling;             // children[0] dan sonraki Nodu u döndürür
+val = list.children[0].nextElementSibling;      // children[0] dan sonraki HTML tag ı döndürür
+val = list.children[1].previousElementSibling;  // children[1] den önceki HTML tag ı döndürür
+
+for(let i = 0; i < list.children.length; i++){
+  console.log(list.children[i]);
+}
+
+for(let i = 0; i < list.childNodes.length; i++){  // Bir önceki for döngüsü ile aynı işi yapar
+  if(list.childNodes[i].nodeType === 1){
+    console.log(list.childNodes[i]);
+  }
+}
+```
+> DOM elementlerini seçme
