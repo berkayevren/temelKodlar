@@ -299,9 +299,11 @@ list.removeChild(list.children[0]);         // Aynı işlemi yapar
 list.children[0].removeAttribute('class');  // class Attribute unu siler
 
 
-const h2 = document.creatElement('h2');
+const h2 = document.createElement('h2');
 h2.setAttribute('class', 'ornekClass');
-h2.appendChild(document.creatTextNode('deneme')); // İçerisinde deneme yazan h2 taglı bir element oluşturuldu
+h2.className = 'ornekClass ikinciClass ucuncuClass';  // Üsttekinin alternatifi
+h2.setAttribute('data-id', '3');
+h2.appendChild(document.createTextNode('deneme'));    // İçerisinde deneme yazan h2 taglı bir element oluşturuldu
 
 const parent = document.querySelector('.ornekClassParent');  // ornekClass sınıfının üstündeki ornekClassParent sınıfı
 parent.replaceChild(h2, list);  // oluşturulan yeni element, eski ornekClass sınıflı element yerine yazıldı
@@ -317,3 +319,51 @@ val = list.setAttribute('href', 'http://google.com/');
 val = list.hasAttribute('data-val');  // true / false
 ```
 > DOM elementleri silme ve düzenleme
+---
+```javascript
+const btn = document.querySelector('#btn1');
+
+btn.addEventListener('click',fonksiyon1);
+btn.addEventListener('click',fonksiyon2);
+function fonksiyon1() {...};
+function fonksiyon2() {...};
+
+btn.addEventListener('click',function(e){
+  let val;
+  
+  val = e;  
+  console.log(val); // event objesinin bütün bilgileri görüntülenir
+  
+  val = e.target; // hangi elemente (butona) tıklandığını gösterir
+  val = e.target.id;
+  val = e.target.classList;
+  val = e.type    // event tipini verir (click)
+  
+  e.preventDefault(); // Örneğin href etkisini yok eder
+  
+});
+```
+> Event Listener kullanımı
+---
+```javascript
+const btn = document.querySelector('#btn1');
+
+btn.addEventListener('dblclick',eventHandler);
+btn.addEventListener('mousedown',eventHandler);   // Tıklayınca
+btn.addEventListener('mouseup',eventHandler);     // Tıklama kalkınca
+btn.addEventListener('mouseenter',eventHandler);  // Üst üste nesnelerde diğer nesneye geçilse bile ana gövdenin içerisinden çıkılmadıkça tekrar enter oluşmaz
+btn.addEventListener('mouseleave',eventHandler);  // Üst üste nesnelerde ana gövdeden çıkılmadıkça leave oluşmaz
+btn.addEventListener('mouseover',eventHandler);   // Üst üste nesnelerde diğer nesneye geçildiğinde tekrar over oluşur
+btn.addEventListener('mouseout',eventHandler);    // Üst üste nesnelerde diğer nesneye geçildiğinde out olayı oluşur
+// mouseover ve mouseout nesnelerin alt elemanlarında da geçerli olur. mouseenter ve mouseleave alt elemanlarda geçerli değildir.
+
+const h1 = document.querySelector('h1');  // Koordinat yazılacak etiket
+
+ul.addEventListener('mousemove',eventHandler);
+
+function eventHandler(event){
+  h1.textContent = `MouseX: ${event.offsetX}    // ul nesnesi için üst sol nokta offset olarak belirlenerek
+                    MouseY: ${event.offsetY}`;  // ul içerisinde mouse gezerken mouse koordinatları h1 taglı alana yazdırılıyor
+}
+```
+> Mouse Events
