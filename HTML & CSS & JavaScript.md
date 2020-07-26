@@ -392,6 +392,8 @@ function eventHandler(e){
   e.target.style.backgroundColor = 'blue';  // örneğin focus olayı gerçekleşince arka plan mavi olsun
 }
 
+---
+
 const form = document.querySelector('form');
 form.addEventListener('submit', eventHandler);
 
@@ -460,6 +462,8 @@ seviye4.addEventListener('click',function(){
 // eventler en dıştan içe doğru gerçekleşmeye başlar. e.stopPropagation()
 // fonksiyonu eklenirse içteki elemenlere tıklansa bile sadece en dıştaki event gerçekleşir
 
+---
+
 const ul = document.querySelector('ul');
 
 ul.addEventListener('click', function(e){           // ul listesi içerisinde
@@ -470,3 +474,29 @@ ul.addEventListener('click', function(e){           // ul listesi içerisinde
 });
 ```
 > Event Bubbling / Capturing durumları
+---
+```javascript
+console.log(localStorage);    // localStorage ve özelliklerini gösterir
+
+localStorage.setItem('firstName','Berkay');
+let val = localStorage.getItem('firstName');  // firstName için kayıtlı değeri string olarak döndürür
+localStorage.removeItem('firstName');
+localStorage.clear();
+
+let hobbies = ['gezmek','araba','bisiklet'];
+
+localStorage.setItem('hobbies',hobbies);  // Hobileri aralarına virgül koyarak tek bir string halinde yazar
+localStorage.setItem('hobbies',JSON.stringify(hobbies));  // Hobileri JSON objesi şeklinde dizi olarak yazar
+val = JSON.parse(localStorage.getItem('hobbies'));        // JSON objesi olarak kaydedilen hobileri geri almak
+
+// localStorage tarayıcı kapansa bile site adresi için bilgiyi saklar
+
+---
+
+console.log(sessionStorage);  // sessionStorage ve özelliklerini gösterir
+
+sessionStorage.setItem('country','Türkiye');
+
+// sessionStorage tarayıcı kapanana kadar site adresi için bilgiyi saklar
+```
+> localStorage / sessionStorage
