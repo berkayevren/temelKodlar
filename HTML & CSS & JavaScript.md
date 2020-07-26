@@ -400,3 +400,73 @@ function eventHandler(e){   // Bu şekilde formun submit butonuna tıklandığı
 }
 ```
 > Keyboard Events
+---
+```javascript
+const seviye1 = document.querySelector('.seviye1'); // En dıştakı element
+const seviye2 = document.querySelector('.seviye2');
+const seviye3 = document.querySelector('.seviye3');
+const seviye4 = document.querySelector('.seviye4'); // En içteki element
+
+seviye1.addEventListener('click',function(){
+  console.log('seviye1');
+});
+seviye2.addEventListener('click',function(){
+  console.log('seviye2');
+});
+seviye3.addEventListener('click',function(){
+  console.log('seviye3');
+});
+seviye4.addEventListener('click',function(){
+  console.log('seviye4');
+});
+
+// Yukarıdaki örnek Event Bubbling örneği. En içteki elemente tıklandığında
+// event ler içten dışa doğru gerçekleşir.
+
+seviye1.addEventListener('click',function(e){
+  console.log('seviye1');
+  e.stopPropagation();
+});
+seviye2.addEventListener('click',function(e){
+  console.log('seviye2');
+  e.stopPropagation();
+});
+seviye3.addEventListener('click',function(e){
+  console.log('seviye3');
+  e.stopPropagation();
+});
+seviye4.addEventListener('click',function(e){
+  console.log('seviye4');
+  e.stopPropagation();
+});
+
+// stopPropagation() fonksiyonu çalıştığında olduğunda diğer eventleri durdurur
+// böylece sadece tıklanan elementin event i gerçekleşir
+
+seviye1.addEventListener('click',function(){
+  console.log('seviye1');
+},true);
+seviye2.addEventListener('click',function(){
+  console.log('seviye2');
+},true);
+seviye3.addEventListener('click',function(){
+  console.log('seviye3');
+},true);
+seviye4.addEventListener('click',function(){
+  console.log('seviye4');
+},true);
+
+// Yukarıdaki örnek Event Capturing örneğidir. En içteki elemente tıklandığında
+// eventler en dıştan içe doğru gerçekleşmeye başlar. e.stopPropagation()
+// fonksiyonu eklenirse içteki elemenlere tıklansa bile sadece en dıştaki event gerçekleşir
+
+const ul = document.querySelector('ul');
+
+ul.addEventListener('click', function(e){           // ul listesi içerisinde
+  if(e.target.className === 'fas fa-times'){        // Çarpı butonuna tıklanmış ise (fas fa-times)
+    e.target.parentElement.parentElement.remove();  // Çarpısına tıklanan li elementini sil
+    e.preventDefault();                             // Linke gitme
+  }
+});
+```
+> Event Bubbling / Capturing durumları
