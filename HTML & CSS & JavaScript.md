@@ -392,7 +392,7 @@ function eventHandler(e){
   e.target.style.backgroundColor = 'blue';  // örneğin focus olayı gerçekleşince arka plan mavi olsun
 }
 
----
+/**********************************************/
 
 const form = document.querySelector('form');
 form.addEventListener('submit', eventHandler);
@@ -462,7 +462,7 @@ seviye4.addEventListener('click',function(){
 // eventler en dıştan içe doğru gerçekleşmeye başlar. e.stopPropagation()
 // fonksiyonu eklenirse içteki elemenlere tıklansa bile sadece en dıştaki event gerçekleşir
 
----
+/**********************************************/
 
 const ul = document.querySelector('ul');
 
@@ -491,7 +491,7 @@ val = JSON.parse(localStorage.getItem('hobbies'));        // JSON objesi olarak 
 
 // localStorage tarayıcı kapansa bile site adresi için bilgiyi saklar
 
----
+/**********************************************/
 
 console.log(sessionStorage);  // sessionStorage ve özelliklerini gösterir
 
