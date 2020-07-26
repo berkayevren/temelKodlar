@@ -52,3 +52,18 @@
 </p>
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88476778-cc907880-cf43-11ea-8a6e-916adae1d236.png" alt="">
+
+---
+```html
+<div class="text-primary">text-primary</div>
+<div class="text-secondary">text-secondary</div>
+<div class="text-success">text-success</div>
+<div class="text-danger">text-danger</div>
+<div class="text-warning">text-warning</div>
+<div class="text-info">text-info</div>
+<div class="text-light bg-dark">text-light</div>
+<div class="text-dark">text-dark</div>
+<div class="text-muted">text-muted</div>
+<div class="text-white bg-dark">text-white</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88476985-10d04880-cf45-11ea-86d9-f996a5ad0134.png" alt="">
