@@ -64,6 +64,14 @@
 <div class="text-light bg-dark">text-light</div>
 <div class="text-dark">text-dark</div>
 <div class="text-muted">text-muted</div>
-<div class="text-white bg-dark">text-white</div>
+<div class="text-white bg-dark">text-white</div>  <!-- Renkler bg (arka plan) için de geçerli (bg-success, bg-primary...) -->
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88476985-10d04880-cf45-11ea-86d9-f996a5ad0134.png" alt="">
+
+---
+```html
+<span class="badge badge-primary">primary</span>
+<span class="badge badge-pill badge-danger">danger</span>
+<a class="badge badge-secondary" href="">secondary link</a>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88477335-ed5acd00-cf47-11ea-8840-5104878fcef1.gif" alt="">
