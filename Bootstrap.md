@@ -25,3 +25,19 @@
 <p class="lead">Lorem ipsum dolor sit amet.</p>
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88476297-ecbe3880-cf3f-11ea-8d4e-d7a68d242dc0.png" alt="">
+
+---
+```html
+<p class="text-lowercase">LOWERCASE</p>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88476420-d82e7000-cf40-11ea-80c4-5c509e3304bb.png" alt="">
+
+```html
+<p class="text-uppercase">uppercase</p>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88476423-dc5a8d80-cf40-11ea-9695-731e113e3d1c.png" alt="">
+
+```html
+<p class="text-capitalize">capitalized text</p>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88476427-dfee1480-cf40-11ea-9851-3ecc9b451179.png" alt="">
