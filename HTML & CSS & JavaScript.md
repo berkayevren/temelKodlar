@@ -367,3 +367,36 @@ function eventHandler(event){
 }
 ```
 > Mouse Events
+---
+## 26.07.2020
+
+```javascript
+const input = document.querySelector('#inputArea');
+
+input.addEventListener('keydown',eventHandler);
+input.addEventListener('keyup',eventHandler);
+input.addEventListener('keypress',eventHandler);
+input.addEventListener('focus',eventHandler);     // Input alanına tıklandığında
+input.addEventListener('blur',eventHandler);      // Input alanından çıkıldığında
+input.addEventListener('cut',eventHandler);       // Input alanında kesme işlemi yapıldıysa
+input.addEventListener('paste',eventHandler);     // Input alanına yapıştırma işlemi yapıldıysa
+input.addEventListener('select',eventHandler);    // Input alanında yazı seçildiyse
+
+const selectMenu = document.querySelector('#select');
+input.addEventListener('change',eventHandler);    // Select menüde seçili seçenek değiştiyse
+
+function eventHandler(e){
+  console.log('Event type: ' + e.type);     // Event tipi (focus)
+  console.log('Key code ' + e.keyCode);     // Basılan tuşun ASCII karşılığı
+  console.log('value ' + e.target.value);   // target ın yani input un içerisinde yazılı değer
+  e.target.style.backgroundColor = 'blue';  // örneğin focus olayı gerçekleşince arka plan mavi olsun
+}
+
+const form = document.querySelector('form');
+form.addEventListener('submit', eventHandler);
+
+function eventHandler(e){   // Bu şekilde formun submit butonuna tıklandığında bir linke gitmemesi
+  e.preventDefault();       // ve eventHandler fonksiyonunun içerisini yapması sağlanır
+}
+```
+> Keyboard Events
