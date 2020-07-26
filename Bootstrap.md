@@ -41,3 +41,14 @@
 <p class="text-capitalize">capitalized text</p>
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88476427-dfee1480-cf40-11ea-9851-3ecc9b451179.png" alt="">
+
+---
+```html
+<p>
+  <span class="font-weight-bold">Lorem ipsum dolor sit amet.</span>
+  <span class="font-weight-normal">Possimus ipsum saepe quod praesentium?</span>
+  <span class="font-weight-light">Quasi architecto iste exercitationem nostrum.</span>
+  <span class="font-italic">Officiis facilis adipisci hic aliquid.</span>
+</p>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88476778-cc907880-cf43-11ea-8a6e-916adae1d236.png" alt="">
