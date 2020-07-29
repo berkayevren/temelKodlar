@@ -113,3 +113,106 @@
 <button class="btn btn-success btn-sm">Small</button>
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88768222-6eea6f00-d183-11ea-95ae-61c3a35650c5.png" alt="">
+
+---
+```html
+<button class="btn btn-danger btn-lg btn-block" type="button">Block Button</button>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88768911-68a8c280-d184-11ea-95fe-8b649ad4e173.png" alt="">
+
+---
+```html
+<button class="btn btn-danger btn-lg active" type="button">Active Button</button>
+<button class="btn btn-danger btn-lg" type="button" disabled>Disabled Button</button>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88769251-dfde5680-d184-11ea-902b-ece486d672c0.png" alt="">
+
+---
+```html
+<div class="btn btn-group">
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-secondary" type="button">Secondary</button>
+    <button class="btn btn-danger" type="button">Danger</button>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88769586-4499b100-d185-11ea-8ad2-ccb7a99e2650.png" alt="">
+
+---
+```html
+<div class="btn btn-group-vertical">
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-secondary" type="button">Secondary</button>
+    <button class="btn btn-danger" type="button">Danger</button>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88769654-5da26200-d185-11ea-804c-ab0dbed37560.png" alt="">
+
+---
+```html
+<div class="bg-success m-5" style="width: 50px; height: 50px; display: inline-block;">1</div>
+<div class="bg-success mt-4" style="width: 50px; height: 50px; display: inline-block;">2</div>
+<div class="bg-success mb-3" style="width: 50px; height: 50px; display: inline-block;">3</div>
+<div class="bg-success mr-2" style="width: 50px; height: 50px; display: inline-block;">4</div>
+<div class="bg-success ml-1" style="width: 50px; height: 50px; display: inline-block;">5</div>
+<div class="bg-success mx-5" style="width: 50px; height: 50px; display: inline-block;">6</div>
+<div class="bg-success my-5" style="width: 50px; height: 50px; display: inline-block;">7</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88771016-49f7fb00-d187-11ea-866c-27128d298064.png" alt="">
+
+---
+```html
+<div class="bg-success p-5" style="width: 50px; height: 50px; display: inline-block;">1</div>
+<div class="bg-success pt-3" style="width: 50px; height: 50px; display: inline-block;">2</div>
+<div class="bg-success pb-3" style="width: 50px; height: 50px; display: inline-block;">3</div>
+<div class="bg-success pr-2" style="width: 50px; height: 50px; display: inline-block;">4</div>
+<div class="bg-success pl-1" style="width: 50px; height: 50px; display: inline-block;">5</div>
+<div class="bg-success px-5" style="width: 50px; height: 50px; display: inline-block;">6</div>
+<div class="bg-success py-5" style="width: 50px; height: 50px; display: inline-block;">7</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88771033-511f0900-d187-11ea-86d2-144501dd6502.png" alt="">
+
+---
+```html
+<div class="bg-light mt-2 p-4"></div>
+<div class="bg-light mt-2 p-4 border border-primary"></div>
+<div class="bg-light mt-2 p-4 border-bottom border-primary "></div>
+<div class="bg-light mt-2 p-4 border border-primary border-0 "></div>
+<div class="bg-light mt-2 p-4 border border-primary border-bottom-0"></div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88772372-5e3cf780-d189-11ea-9fe3-4838d569afeb.png" alt="">
+
+---
+```html
+<div class="bg-light mt-2 p-4 border border-primary rounded"></div>
+<div class="bg-light mt-2 p-4 border border-primary rounded-top"></div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88772424-73198b00-d189-11ea-9478-cc63618b110d.png" alt="">
+
+---
+```html
+<div class="bg-success mt-2 p-2"></div>
+<div class="bg-success mt-2 p-2 w-25"></div>
+<div class="bg-success mt-2 p-2 w-50"></div>
+<div class="bg-success mt-2 p-2 w-75"></div>
+<div class="bg-success mt-2 p-2 w-100"></div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88772817-f4711d80-d189-11ea-9c95-528e94c578ee.png" alt="">
+
+---
+```html
+<div class="bg-warning" style="height: 200px;">
+    <div style="display: inline-block;" class="bg-primary p-2 h-25"></div>
+    <div style="display: inline-block;" class="bg-primary p-2 h-50"></div>
+    <div style="display: inline-block;" class="bg-primary p-2 h-75"></div>
+    <div style="display: inline-block;" class="bg-primary p-2 h-100"></div>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88773533-ea035380-d18a-11ea-81a3-94f50d9ecdfc.png" alt="">
+
+---
+```html
+<div class="bg-white mt-4 p-4 shadow"></div>
+<div class="bg-white mt-4 p-4 shadow-sm"></div>
+<div class="bg-white mt-4 p-4 shadow-lg"></div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88773874-6a29b900-d18b-11ea-8560-b66fef4b5ca3.png" alt="">
