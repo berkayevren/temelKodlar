@@ -409,6 +409,82 @@
 
 ---
 ```html
+<div class="alert alert-danger mb-3">
+    Lorem ipsum dolor sit amet.
+    <a href="" class="alert alert-link">Link text</a>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88794351-06ad8480-d1a7-11ea-9fa7-118bc27d1043.png" alt="">
 
+---
+```html
+<div class="alert alert-success">
+    <h4>Success</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptatem voluptates commodi facere perspiciatis pariatur, eos libero animi similique quam molestias amet. Laborum, eligendi dolorem. Molestiae quod ipsum id omnis?</p>
+    <hr>
+    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam enim dolor ullam, earum soluta perferendis corrupti dicta possimus itaque cum?</p>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88795840-542af100-d1a9-11ea-91d7-ee5a7aa456cd.png" alt="">
+
+---
+```html
+<div class="alert alert-warning alert-dismissible fade show">
+    Lorem ipsum dolor sit amet.
+    <button type="button" class="close" data-dismiss="alert">
+        <span>&times;</span>
+    </button>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88795719-280f7000-d1a9-11ea-8b87-bd2457e43044.gif" alt="">
+
+---
+```html
+<div class="media">
+    <img class="mr-3" src="https://via.placeholder.com/64x64" alt="">
+    <div class="media-body">
+        <h5>Lorem, ipsum dolor.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore asperiores quas reiciendis voluptatum minima similique tempore cum praesentium ab pariatur, sapiente fugiat repudiandae ducimus excepturi, mollitia, saepe et numquam sunt.</p>
+    </div>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88796325-1b3f4c00-d1aa-11ea-920f-302be00c90c0.png" alt="">
+
+---
+```html
+
+```
+<img src="https://user-images.githubusercontent.com/49374131/88796490-6b1e1300-d1aa-11ea-9971-e1b5c1fc283a.png" alt="">
+
+---
+```html
+<div class="media">
+    <img class="mr-3" src="https://via.placeholder.com/64x64" alt="">
+    <div class="media-body">
+        <h5>Lorem, ipsum dolor.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore asperiores quas reiciendis voluptatum minima similique tempore cum praesentium ab pariatur, sapiente fugiat repudiandae ducimus excepturi, mollitia, saepe et numquam sunt.</p>
+        <div class="media">
+            <img class="mr-3" src="https://via.placeholder.com/64x64" alt="">
+            <div class="media-body">
+                <h5>Lorem, ipsum dolor.</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum, consequatur possimus facere aut animi.</p>
+            </div>
+        </div>
+        <div class="media">
+            <img class="mr-3" src="https://via.placeholder.com/64x64" alt="">
+            <div class="media-body">
+                <h5>Lorem, ipsum dolor.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatem!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="media">
+    <img class="mr-3" src="https://via.placeholder.com/64x64" alt="">
+    <div class="media-body">
+        <h5>Lorem, ipsum dolor.</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quae cumque repudiandae cupiditate.</p>
+    </div>
+</div>
 ```
 <img src="" alt="">
