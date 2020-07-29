@@ -216,3 +216,132 @@
 <div class="bg-white mt-4 p-4 shadow-lg"></div>
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88773874-6a29b900-d18b-11ea-8560-b66fef4b5ca3.png" alt="">
+
+---
+```html
+<p class="text-justify">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor facere, ab corporis voluptates, maiores totam aut modi ullam tempora dolorem fuga suscipit incidunt laudantium qui? Illum facere repudiandae vero!
+</p>
+<p class="text-right">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam nisi eligendi perspiciatis et? Veritatis ipsa quaerat vel iste obcaecati, aliquam blanditiis quia porro quos veniam, consequuntur labore et error accusantium.
+</p>
+<p class="text-center">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas incidunt voluptates dolores illum laboriosam quod mollitia dignissimos corporis consequatur, iste explicabo aliquam saepe deserunt ipsum quidem natus alias in.
+</p>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88774735-7c582700-d18c-11ea-876a-1a73f4563b77.png" alt="">
+
+---
+```html
+<blockquote class="blockquote text-justify">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto itaque repellat numquam ducimus quis ad fugiat id provident modi neque accusamus esse nostrum dolore, vitae magnam voluptates hic ipsam dicta!
+    </p>
+    <footer class="blockquote-footer">Berkay EVREN</footer>
+</blockquote>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88775086-f4bee800-d18c-11ea-8116-7f4f56f8493c.png" alt="">
+
+---
+```html
+<!--  HİZALAMA SADECE BLOCK ETİKETLERİNDE YAPILABİLECEĞİ İÇİN
+      INLINE ELEMENTLERİ BLOCK ELEMENTLERE DÖNÜŞTÜRMEK GEREKİR -->
+
+<span class="d-block bg-danger">d-block</span>
+<span class="d-block bg-danger">d-block</span>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88776239-63507580-d18e-11ea-905c-e4ddb25f351b.png" alt="">
+
+---
+```html
+<div class="d-inline bg-info">d-inline</div>
+<div class="d-inline bg-info">d-inline</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88776150-44ea7a00-d18e-11ea-88da-331741bbbe42.png" alt="">
+
+---
+```html
+<div class="d-inline-block bg-primary">
+    <h3>Header</h3>
+    Line
+</div>
+
+<div class="d-inline-block bg-primary">
+    <h3>Header</h3>
+    Line
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88776684-f4275100-d18e-11ea-9b8b-92fc81ce9951.png" alt="">
+
+---
+```html
+<div class="d-none bg-warning"></div>     <!-- Nesne görünmez ve yer kaplamaz -->
+<div class="invisible bg-warning"></div>  <!-- Nesne görünmez ama yer kaplar -->
+```
+
+---
+```html
+<table class="table">
+  <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88778402-26d24900-d191-11ea-83ba-e1d7ec2fcbc9.png" alt="">
+
+```html
+<table class="table table-dark">
+  <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88778445-32be0b00-d191-11ea-943a-04fbe44265ff.png" alt="">
+
+```html
+<table class="table">
+  <thead class="table-dark"><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88778525-4e291600-d191-11ea-80ff-16ed05104d50.png" alt="">
+
+```html
+<table class="table table-striped">
+  <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88778874-baa41500-d191-11ea-93b2-bb6e2cc1c987.png" alt="">
+
+```html
+<table class="table table-striped table-bordered">
+  <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88779027-ecb57700-d191-11ea-90ea-357132503481.png" alt="">
+
+```html
+<table class="table table-hover">
+  <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88779604-9eed3e80-d192-11ea-86a5-9228ed0c0370.gif" alt="">
+
+```html
+<table class="table table-sm">
+  <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+  <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+</table>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88779744-c93efc00-d192-11ea-9c2e-b8fb34d5bd4d.png" alt="">
+
+```html
+<div class="table-responsive">
+  <table class="table table-sm">
+    <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
+    <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
+  </table>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88780859-461ea580-d194-11ea-8728-bd6844735060.png" alt="">
