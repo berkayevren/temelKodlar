@@ -75,3 +75,41 @@
 <a class="badge badge-secondary" href="">secondary link</a>
 ```
 <img src="https://user-images.githubusercontent.com/49374131/88477335-ed5acd00-cf47-11ea-8840-5104878fcef1.gif" alt="">
+
+---
+## 29.07.2020
+
+```html
+<button class="btn btn-primary"   type="button">Primary</button>
+<button class="btn btn-secondary" type="button">Secondary</button>
+<button class="btn btn-danger"    type="button">Danger</button>
+<button class="btn btn-warning"   type="button">Warning</button>
+<button class="btn btn-info"      type="button">Info</button>
+<button class="btn btn-light"     type="button">Light</button>
+<button class="btn btn-dark"      type="button">Dark</button>
+<button class="btn btn-success"   type="button">Success</button>
+<button class="btn btn-link"      type="button">Link</button>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88767084-cee01600-d181-11ea-8c71-0f2c0a9aafe3.gif" alt="">
+
+---
+```html
+<button class="btn btn-outline-primary"   type="button">Primary</button>
+<button class="btn btn-outline-secondary" type="button">Secondary</button>
+<button class="btn btn-outline-danger"    type="button">Danger</button>
+<button class="btn btn-outline-warning"   type="button">Warning</button>
+<button class="btn btn-outline-info"      type="button">Info</button>
+<button class="btn btn-outline-light"     type="button">Light</button>
+<button class="btn btn-outline-dark"      type="button">Dark</button>
+<button class="btn btn-outline-success"   type="button">Success</button>
+<button class="btn btn-outline-link"      type="button">Link</button>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88767901-f388bd80-d182-11ea-955f-a92c7a958692.gif" alt="">
+
+---
+```html
+<button class="btn btn-success">Normal</button>
+<button class="btn btn-success btn-lg">Large</button>
+<button class="btn btn-success btn-sm">Small</button>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88768222-6eea6f00-d183-11ea-95ae-61c3a35650c5.png" alt="">
