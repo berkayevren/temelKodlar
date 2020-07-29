@@ -338,10 +338,10 @@
 
 ```html
 <div class="table-responsive">
-  <table class="table table-sm">
+  <table class="table">
     <thead><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr><tr><th>Ad</th><th>Soyad</th><th>E-Posta</th><th>Telefon</th></tr></thead>
     <tbody><tr><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Berkay</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Ahmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Mehmet</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr><tr><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td><td>Ali</td><td>EVREN</td><td>abc.hotmail.com</td><td>0555 666 8877</td></tr></tbody>
   </table>
 </div>
 ```
-<img src="https://user-images.githubusercontent.com/49374131/88780859-461ea580-d194-11ea-8728-bd6844735060.png" alt="">
+<img src="https://user-images.githubusercontent.com/49374131/88791467-6e150580-d1a2-11ea-94b2-835314276d2f.png" alt="">
