@@ -452,12 +452,6 @@
 
 ---
 ```html
-
-```
-<img src="https://user-images.githubusercontent.com/49374131/88796490-6b1e1300-d1aa-11ea-9971-e1b5c1fc283a.png" alt="">
-
----
-```html
 <div class="media">
     <img class="mr-3" src="https://via.placeholder.com/64x64" alt="">
     <div class="media-body">
@@ -486,5 +480,45 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quae cumque repudiandae cupiditate.</p>
     </div>
 </div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88796490-6b1e1300-d1aa-11ea-9971-e1b5c1fc283a.png" alt="">
+
+---
+```html
+<div class="media w-50">
+    <img class="mr-3 align-self-start" src="https://via.placeholder.com/64x64" alt=""><div class="media-body"><h5>Lorem, ipsum dolor.</h5><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, ipsam.</p></div>
+</div>
+
+<div class="media w-50">
+    <img class="mr-3 align-self-center" src="https://via.placeholder.com/64x64" alt=""><div class="media-body"><h5>Lorem, ipsum dolor.</h5><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, ipsam.</p></div>
+</div>
+
+<div class="media w-50">
+    <img class="mr-3 align-self-end" src="https://via.placeholder.com/64x64" alt=""><div class="media-body"><h5>Lorem, ipsum dolor.</h5><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, ipsam.</p></div>
+</div>
+```
+<img src="https://user-images.githubusercontent.com/49374131/88798560-bdacfe80-d1ad-11ea-8359-4f8b285fb658.png" alt="">
+
+---
+```html
+
+```
+<img src="" alt="">
+
+---
+```html
+
+```
+<img src="" alt="">
+
+---
+```html
+
+```
+<img src="" alt="">
+
+---
+```html
+
 ```
 <img src="" alt="">
